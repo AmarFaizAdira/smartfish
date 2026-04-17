@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart Fish Farm – Smart Aquaculture for a Better Future</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts: Clash Display + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <img src="logo.png" alt="Smart Fish Farm Logo" />
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Beranda</a></li>
+        <li><a href="#produk" class="nav-link">Produk</a></li>
+        <li><a href="#tentang" class="nav-link">Tentang</a></li>
+        <li><a href="#teknologi" class="nav-link">Teknologi</a></li>
+        <li><a href="#aquawisata" class="nav-link">Aquawisata</a></li>
+        <li><a href="#kontak" class="nav-link">Kontak</a></li>
+      </ul>
+      <a href="#kontak" class="btn-nav">Hubungi Kami</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Teknologi Budidaya Masa Depan
+      </div>
+      <h1 class="hero-title reveal">
+        Smart Aquaculture<br />
+        <span class="hero-title-accent">for a Better Future</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        Ekosistem budidaya ikan berbasis IoT yang menggabungkan teknologi mutakhir,
+        efisiensi produksi, dan edukasi berkelanjutan untuk hasil panen optimal.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#produk" class="btn-primary">
+          Jelajahi Layanan <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <a href="#teknologi" class="btn-ghost">
+          <i class="fa-solid fa-play"></i> Lihat Teknologi
+        </a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num">500+</span>
+          <span class="stat-label">Kg Produksi/Bulan</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">98%</span>
+          <span class="stat-label">Tingkat Keberhasilan</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">24/7</span>
+          <span class="stat-label">Monitoring IoT</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT SNAPSHOT ===================== -->
+  <section class="about-snap" id="about-snap">
+    <div class="container">
+      <div class="about-snap-grid reveal">
+        <div class="about-snap-text">
+          <div class="section-tag">Tentang Kami</div>
+          <h2 class="section-title">Inovasi Budidaya<br /><span>Berbasis Teknologi</span></h2>
+          <p>Smart Fish Farm hadir sebagai pionir ekosistem budidaya ikan modern di Indonesia. Kami memadukan kecerdasan IoT, efisiensi operasional, dan semangat edukasi untuk menciptakan sistem akuakultur yang berkelanjutan dan menguntungkan.</p>
+          <div class="about-snap-features">
+            <div class="feature-item">
+              <i class="fa-solid fa-microchip"></i>
+              <span>Sistem IoT Real-Time</span>
+            </div>
+            <div class="feature-item">
+              <i class="fa-solid fa-leaf"></i>
+              <span>Ramah Lingkungan</span>
+            </div>
+            <div class="feature-item">
+              <i class="fa-solid fa-chart-line"></i>
+              <span>Efisiensi Tinggi</span>
+            </div>
+          </div>
+          <a href="#tentang" class="btn-outline">Selengkapnya <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="about-snap-visual">
+          <div class="device-card">
+            <img src="device.png" alt="Smart Feeder Device" class="device-img" />
+            <div class="device-badge">
+              <i class="fa-solid fa-wifi"></i> IoT Connected
+            </div>
+            <div class="device-pulse"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES HIGHLIGHT ===================== -->
+  <section class="services" id="layanan">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Layanan Utama</div>
+        <h2 class="section-title">Solusi Lengkap<br /><span>Untuk Budidaya Anda</span></h2>
+        <p class="section-desc">Tiga pilar utama yang menjadi fondasi ekosistem Smart Fish Farm</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" data-delay="0">
+          <div class="service-icon-wrap" style="--icon-color: #00c853;">
+            <i class="fa-solid fa-fish"></i>
+          </div>
+          <h3>Produk Ikan Segar</h3>
+          <p>Lele & nila premium hasil budidaya teknologi. Kualitas terjamin, pasokan konsisten, harga kompetitif langsung dari tambak.</p>
+          <a href="#produk" class="service-link">Lihat Produk <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="service-card service-card-featured reveal" data-delay="150">
+          <div class="service-icon-wrap" style="--icon-color: #fff;">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <h3>Smart Feeder IoT</h3>
+          <p>Mesin pemberi pakan otomatis berbasis IoT dengan sensor suhu & pH real-time. Efisiensi pakan meningkat hingga 40%.</p>
+          <a href="#produk" class="service-link">Lihat Teknologi <i class="fa-solid fa-arrow-right"></i></a>
+          <div class="card-featured-badge">Unggulan</div>
+        </div>
+        <div class="service-card reveal" data-delay="300">
+          <div class="service-icon-wrap" style="--icon-color: #00c853;">
+            <i class="fa-solid fa-binoculars"></i>
+          </div>
+          <h3>Aquawisata Edukasi</h3>
+          <p>Program eduwisata budidaya ikan berbasis teknologi untuk pelajar & komunitas. Pengalaman langsung yang menginspirasi.</p>
+          <a href="#aquawisata" class="service-link">Lihat Program <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PRODUK & LAYANAN ===================== -->
+  <section class="produk" id="produk">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Produk & Harga</div>
+        <h2 class="section-title">Semua Yang Anda<br /><span>Butuhkan</span></h2>
+      </div>
+
+      <!-- A. Produk Ikan -->
+      <div class="produk-kategori reveal">
+        <h3 class="kategori-title"><i class="fa-solid fa-fish"></i> Produk Ikan Segar</h3>
+        <div class="produk-grid">
+          <!-- Lele -->
+          <div class="produk-card">
+            <div class="produk-img-wrap">
+              <div class="produk-img produk-img-lele">
+                <i class="fa-solid fa-fish fish-icon-lele"></i>
+                <div class="img-overlay-text">Lele Segar</div>
+              </div>
+              <div class="produk-tag">Terlaris</div>
+            </div>
+            <div class="produk-body">
+              <h4>Ikan Lele Premium</h4>
+              <p>Ikan lele segar hasil budidaya sistem IoT. Bebas kontaminan, ukuran seragam, pertumbuhan optimal dengan manajemen pakan cerdas.</p>
+              <ul class="produk-features">
+                <li><i class="fa-solid fa-check"></i> Kualitas premium terjaga</li>
+                <li><i class="fa-solid fa-check"></i> Dipanen saat optimal</li>
+                <li><i class="fa-solid fa-check"></i> Bersih & bebas bau</li>
+              </ul>
+              <div class="produk-footer">
+                <div class="produk-harga">
+                  <span class="harga-angka">Rp 25.000</span>
+                  <span class="harga-satuan">/kg</span>
+                </div>
+                <a href="https://wa.me/6285804651262?text=Halo,%20saya%20ingin%20pesan%20Ikan%20Lele" target="_blank" class="btn-primary btn-sm">
+                  <i class="fa-brands fa-whatsapp"></i> Pesan Sekarang
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Nila -->
+          <div class="produk-card">
+            <div class="produk-img-wrap">
+              <div class="produk-img produk-img-nila">
+                <i class="fa-solid fa-fish fish-icon-nila"></i>
+                <div class="img-overlay-text">Nila Segar</div>
+              </div>
+            </div>
+            <div class="produk-body">
+              <h4>Ikan Nila Premium</h4>
+              <p>Nila berkualitas tinggi dengan daging tebal dan rasa lezat. Dibudidayakan dengan teknologi monitoring air otomatis 24/7.</p>
+              <ul class="produk-features">
+                <li><i class="fa-solid fa-check"></i> Daging padat & segar</li>
+                <li><i class="fa-solid fa-check"></i> Bebas penyakit</li>
+                <li><i class="fa-solid fa-check"></i> Tersedia dalam jumlah besar</li>
+              </ul>
+              <div class="produk-footer">
+                <div class="produk-harga">
+                  <span class="harga-angka">Rp 38.000</span>
+                  <span class="harga-satuan">/kg</span>
+                </div>
+                <a href="https://wa.me/6285804651262?text=Halo,%20saya%20ingin%20pesan%20Ikan%20Nila" target="_blank" class="btn-primary btn-sm">
+                  <i class="fa-brands fa-whatsapp"></i> Pesan Sekarang
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- B. Smart Feeder -->
+      <div class="produk-kategori reveal">
+        <h3 class="kategori-title"><i class="fa-solid fa-robot"></i> Smart Feeder Machine</h3>
+        <div class="produk-grid produk-grid-single">
+          <div class="produk-card produk-card-device">
+            <div class="produk-img-wrap">
+              <div class="produk-img produk-img-device">
+                <img src="device.png" alt="Smart Feeder IoT" class="device-product-img" />
+              </div>
+              <div class="produk-tag produk-tag-tech">IoT</div>
+            </div>
+            <div class="produk-body">
+              <h4>Smart Feeder IoT</h4>
+              <p>Mesin pemberi pakan otomatis canggih dengan sistem sensor terintegrasi. Kelola kolam ikan Anda dari mana saja, kapan saja.</p>
+              <div class="feeder-specs-grid">
+                <div class="spec-item">
+                  <i class="fa-solid fa-clock"></i>
+                  <span>Jadwal Otomatis</span>
+                </div>
+                <div class="spec-item">
+                  <i class="fa-solid fa-temperature-half"></i>
+                  <span>Sensor Suhu</span>
+                </div>
+                <div class="spec-item">
+                  <i class="fa-solid fa-droplet"></i>
+                  <span>Sensor pH Air</span>
+                </div>
+                <div class="spec-item">
+                  <i class="fa-solid fa-wifi"></i>
+                  <span>WiFi / IoT</span>
+                </div>
+                <div class="spec-item">
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  <span>App Control</span>
+                </div>
+                <div class="spec-item">
+                  <i class="fa-solid fa-bolt"></i>
+                  <span>Hemat Energi</span>
+                </div>
+              </div>
+              <div class="produk-footer">
+                <div class="produk-harga">
+                  <span class="harga-angka">Rp 2.500.000</span>
+                  <span class="harga-satuan">/unit</span>
+                </div>
+                <a href="https://wa.me/6285804651262?text=Halo,%20saya%20ingin%20beli%20Smart%20Feeder%20IoT" target="_blank" class="btn-primary btn-sm">
+                  <i class="fa-brands fa-whatsapp"></i> Beli Sekarang
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- C. Platform Digital -->
+      <div class="produk-kategori reveal">
+        <h3 class="kategori-title"><i class="fa-solid fa-display"></i> Platform Digital</h3>
+        <div class="platform-card">
+          <div class="platform-visual">
+            <div class="dashboard-mockup">
+              <div class="dash-header">
+                <div class="dash-dot red"></div>
+                <div class="dash-dot yellow"></div>
+                <div class="dash-dot green"></div>
+                <span>Smart Fish Dashboard</span>
+              </div>
+              <div class="dash-body">
+                <div class="dash-sidebar">
+                  <div class="dash-menu-item active"><i class="fa-solid fa-gauge"></i></div>
+                  <div class="dash-menu-item"><i class="fa-solid fa-fish"></i></div>
+                  <div class="dash-menu-item"><i class="fa-solid fa-chart-bar"></i></div>
+                  <div class="dash-menu-item"><i class="fa-solid fa-bell"></i></div>
+                </div>
+                <div class="dash-content">
+                  <div class="dash-widget"><span class="widget-label">Suhu Air</span><span class="widget-val green">28°C</span></div>
+                  <div class="dash-widget"><span class="widget-label">pH Level</span><span class="widget-val blue">7.2</span></div>
+                  <div class="dash-widget wide"><span class="widget-label">Pemberian Pakan Hari Ini</span><div class="dash-bar"><div class="dash-bar-fill" style="width:75%"></div></div></div>
+                  <div class="dash-widget wide"><span class="widget-label">Estimasi Panen</span><span class="widget-val orange">14 Hari</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="platform-text">
+            <h4>Dashboard IoT & Platform Pemasaran</h4>
+            <p>Kelola seluruh operasi tambak dari satu platform terintegrasi. Monitor kondisi air real-time, atur jadwal pakan, dan pasarkan produk Anda langsung kepada konsumen.</p>
+            <div class="platform-features">
+              <div class="pf-item"><i class="fa-solid fa-chart-line"></i> Monitoring real-time 24/7</div>
+              <div class="pf-item"><i class="fa-solid fa-bell"></i> Notifikasi & alert otomatis</div>
+              <div class="pf-item"><i class="fa-solid fa-store"></i> Media pemasaran terintegrasi</div>
+              <div class="pf-item"><i class="fa-solid fa-file-invoice"></i> Laporan produksi otomatis</div>
+            </div>
+            <a href="#kontak" class="btn-primary">Minta Demo <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- D. Aquawisata -->
+      <div class="produk-kategori reveal">
+        <h3 class="kategori-title"><i class="fa-solid fa-compass"></i> Paket Aquawisata</h3>
+        <div class="aqua-card">
+          <div class="aqua-visual">
+            <div class="aqua-price-badge">
+              <span>Mulai dari</span>
+              <strong>Rp 50.000</strong>
+              <span>/orang</span>
+            </div>
+            <div class="aqua-img-placeholder">
+              <i class="fa-solid fa-water fa-3x"></i>
+              <p>Eduwisata Berbasis Teknologi</p>
+            </div>
+          </div>
+          <div class="aqua-body">
+            <h4>Paket Aquawisata Edukatif</h4>
+            <p>Program wisata edukasi yang menggabungkan pengalaman langsung di tambak dengan pengenalan teknologi IoT budidaya modern.</p>
+            <div class="aqua-fasilitas">
+              <div class="fas-item"><i class="fa-solid fa-check-circle"></i> Tur & pembelajaran budidaya</div>
+              <div class="fas-item"><i class="fa-solid fa-check-circle"></i> Praktik pemberian pakan ikan</div>
+              <div class="fas-item"><i class="fa-solid fa-check-circle"></i> Pengenalan sistem IoT</div>
+              <div class="fas-item"><i class="fa-solid fa-check-circle"></i> Guidebook eksklusif</div>
+              <div class="fas-item"><i class="fa-solid fa-check-circle"></i> Konsumsi & snack</div>
+              <div class="fas-item"><i class="fa-solid fa-check-circle"></i> Foto dokumentasi</div>
+            </div>
+            <a href="https://wa.me/6285804651262?text=Halo,%20saya%20ingin%20daftar%20Aquawisata%20Smart%20Fish%20Farm" target="_blank" class="btn-primary">
+              <i class="fa-brands fa-whatsapp"></i> Daftar Sekarang
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TENTANG KAMI ===================== -->
+  <section class="tentang" id="tentang">
+    <div class="container">
+      <div class="tentang-grid reveal">
+        <div class="tentang-text">
+          <div class="section-tag">Tentang Kami</div>
+          <h2 class="section-title">Pelopor Budidaya<br /><span>Teknologi Indonesia</span></h2>
+          <blockquote class="visi-quote">
+            "Menjadi pelopor budidaya ikan berbasis teknologi di Indonesia yang berkelanjutan dan berdaya saing global."
+          </blockquote>
+          <div class="misi-list">
+            <div class="misi-item">
+              <div class="misi-icon"><i class="fa-solid fa-rocket"></i></div>
+              <div>
+                <h5>Meningkatkan Efisiensi</h5>
+                <p>Mengoptimalkan proses budidaya dengan otomasi dan data-driven management untuk hasil panen maksimal.</p>
+              </div>
+            </div>
+            <div class="misi-item">
+              <div class="misi-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+              <div>
+                <h5>Mengedukasi Masyarakat</h5>
+                <p>Membagikan ilmu dan teknologi budidaya modern kepada petani ikan dan generasi penerus bangsa.</p>
+              </div>
+            </div>
+            <div class="misi-item">
+              <div class="misi-icon"><i class="fa-solid fa-earth-asia"></i></div>
+              <div>
+                <h5>Mendukung Keberlanjutan</h5>
+                <p>Menerapkan praktik budidaya ramah lingkungan yang menjaga ekosistem dan ketahanan pangan nasional.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tentang-visual">
+          <div class="values-card">
+            <div class="values-logo">
+              <img src="logo.png" alt="Smart Fish Farm" />
+            </div>
+            <div class="values-grid">
+              <div class="value-item">
+                <span class="value-num">500+</span>
+                <span>Kg/Bulan</span>
+              </div>
+              <div class="value-item">
+                <span class="value-num">3+</span>
+                <span>Tahun Pengalaman</span>
+              </div>
+              <div class="value-item">
+                <span class="value-num">100+</span>
+                <span>Pelanggan Puas</span>
+              </div>
+              <div class="value-item">
+                <span class="value-num">5</span>
+                <span>Kolam Aktif</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TEKNOLOGI ===================== -->
+  <section class="teknologi" id="teknologi">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Inovasi</div>
+        <h2 class="section-title">Sistem Teknologi<br /><span>Smart Fish Farm</span></h2>
+        <p class="section-desc">Infrastruktur IoT terpadu yang memastikan kondisi optimal kolam Anda setiap saat</p>
+      </div>
+
+      <!-- IoT Flow Diagram -->
+      <div class="iot-diagram reveal">
+        <div class="iot-node sensor-node">
+          <div class="iot-icon"><i class="fa-solid fa-temperature-half"></i></div>
+          <span>Sensor Suhu & pH</span>
+        </div>
+        <div class="iot-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="iot-node gateway-node">
+          <div class="iot-icon"><i class="fa-solid fa-wifi"></i></div>
+          <span>Gateway IoT</span>
+        </div>
+        <div class="iot-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="iot-node cloud-node">
+          <div class="iot-icon"><i class="fa-solid fa-cloud"></i></div>
+          <span>Cloud Platform</span>
+        </div>
+        <div class="iot-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="iot-node app-node">
+          <div class="iot-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+          <span>App & Dashboard</span>
+        </div>
+        <div class="iot-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        <div class="iot-node feeder-node">
+          <div class="iot-icon"><i class="fa-solid fa-robot"></i></div>
+          <span>Smart Feeder</span>
+        </div>
+      </div>
+
+      <!-- Tech Features -->
+      <div class="tech-features-grid reveal">
+        <div class="tech-feature">
+          <div class="tech-icon"><i class="fa-solid fa-droplet"></i></div>
+          <h4>Sensor Air Multi-Parameter</h4>
+          <p>Monitoring suhu, pH, oksigen terlarut, dan kejernihan air secara real-time dengan akurasi tinggi.</p>
+        </div>
+        <div class="tech-feature">
+          <div class="tech-icon"><i class="fa-solid fa-bowl-rice"></i></div>
+          <h4>Otomatisasi Pakan Cerdas</h4>
+          <p>Pemberian pakan terjadwal berdasarkan data sensor dan kebutuhan nutrisi ikan secara adaptif.</p>
+        </div>
+        <div class="tech-feature">
+          <div class="tech-icon"><i class="fa-solid fa-chart-bar"></i></div>
+          <h4>Analytics & Reporting</h4>
+          <p>Dashboard analitik lengkap dengan grafik pertumbuhan, konsumsi pakan, dan proyeksi panen.</p>
+        </div>
+        <div class="tech-feature">
+          <div class="tech-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h4>Alert & Notifikasi</h4>
+          <p>Sistem peringatan dini berbasis AI ketika parameter air di luar batas normal yang ditetapkan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== AQUAWISATA ===================== -->
+  <section class="aquawisata-section" id="aquawisata">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Eduwisata</div>
+        <h2 class="section-title">Aquawisata<br /><span>Smart Fish Farm</span></h2>
+        <p class="section-desc">Wisata edukasi unik yang membawa Anda masuk ke dunia akuakultur berbasis teknologi modern</p>
+      </div>
+
+      <div class="aqua-activities reveal">
+        <div class="activity-card">
+          <div class="activity-num">01</div>
+          <div class="activity-icon"><i class="fa-solid fa-hands-holding-circle"></i></div>
+          <h4>Feeding Ikan Langsung</h4>
+          <p>Rasakan pengalaman langsung memberi makan ikan menggunakan sistem Smart Feeder IoT yang canggih.</p>
+        </div>
+        <div class="activity-card">
+          <div class="activity-num">02</div>
+          <div class="activity-icon"><i class="fa-solid fa-book-open"></i></div>
+          <h4>Workshop Budidaya</h4>
+          <p>Pelajari teknik budidaya ikan modern dari ahli kami. Dapatkan ilmu praktis yang langsung bisa diterapkan.</p>
+        </div>
+        <div class="activity-card">
+          <div class="activity-num">03</div>
+          <div class="activity-icon"><i class="fa-solid fa-microchip"></i></div>
+          <h4>Praktik Teknologi IoT</h4>
+          <p>Interaksi langsung dengan sistem sensor dan dashboard monitoring. Kenali teknologi masa depan akuakultur.</p>
+        </div>
+        <div class="activity-card">
+          <div class="activity-num">04</div>
+          <div class="activity-icon"><i class="fa-solid fa-users"></i></div>
+          <h4>Sesi Diskusi & Tanya Jawab</h4>
+          <p>Sesi interaktif dengan tim ahli Smart Fish Farm untuk menjawab semua pertanyaan Anda.</p>
+        </div>
+      </div>
+
+      <!-- Gallery Dummy -->
+      <div class="aqua-gallery reveal">
+        <div class="gallery-item gallery-item-1">
+          <div class="gallery-overlay"><span>Kolam Budidaya</span></div>
+        </div>
+        <div class="gallery-item gallery-item-2">
+          <div class="gallery-overlay"><span>Smart Feeder</span></div>
+        </div>
+        <div class="gallery-item gallery-item-3">
+          <div class="gallery-overlay"><span>Workshop Edukasi</span></div>
+        </div>
+        <div class="gallery-item gallery-item-4">
+          <div class="gallery-overlay"><span>Panen Raya</span></div>
+        </div>
+        <div class="gallery-item gallery-item-5">
+          <div class="gallery-overlay"><span>Monitoring IoT</span></div>
+        </div>
+      </div>
+
+      <div class="aqua-cta reveal">
+        <div class="aqua-cta-inner">
+          <h3>Cocok untuk Pelajar & Komunitas</h3>
+          <p>Tersedia untuk rombongan sekolah, komunitas, instansi, dan umum. Hubungi kami untuk paket khusus grup!</p>
+          <a href="https://wa.me/6285804651262?text=Halo,%20saya%20ingin%20info%20Aquawisata%20Smart%20Fish%20Farm" target="_blank" class="btn-primary">
+            <i class="fa-brands fa-whatsapp"></i> Daftar Sekarang
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONI ===================== -->
+  <section class="testimoni" id="testimoni">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Testimoni</div>
+        <h2 class="section-title">Kata Mereka<br /><span>Tentang Kami</span></h2>
+      </div>
+      <div class="testi-grid reveal">
+        <div class="testi-card">
+          <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"Smart Fish Farm benar-benar mengubah cara saya beternak ikan. Dengan Smart Feeder IoT, pakan lebih efisien dan hasil panen meningkat 30%!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #00c853, #1b5e20)">A</div>
+            <div>
+              <strong>Ahmad Fauzi</strong>
+              <span>Peternak Ikan, Medan</span>
+            </div>
+          </div>
+          <div class="testi-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="testi-card testi-card-featured">
+          <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"Program aquawisata untuk siswa kami luar biasa! Anak-anak antusias belajar teknologi IoT sambil mengenal dunia perikanan. Sangat edukatif!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #0288d1, #01579b)">S</div>
+            <div>
+              <strong>Siti Rahayu</strong>
+              <span>Guru SMA, Sumatera Utara</span>
+            </div>
+          </div>
+          <div class="testi-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-quote"><i class="fa-solid fa-quote-left"></i></div>
+          <p>"Ikan nila dari Smart Fish Farm kualitasnya konsisten dan segar. Saya sudah jadi pelanggan tetap selama 1 tahun. Harga juga sangat terjangkau!"</p>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #ff6f00, #e65100)">B</div>
+            <div>
+              <strong>Budi Santoso</strong>
+              <span>Pemilik Rumah Makan, Binjai</span>
+            </div>
+          </div>
+          <div class="testi-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== KONTAK ===================== -->
+  <section class="kontak" id="kontak">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-tag">Kontak</div>
+        <h2 class="section-title">Hubungi<br /><span>Kami</span></h2>
+        <p class="section-desc">Ada pertanyaan, kerja sama, atau ingin berkunjung? Kami siap melayani Anda!</p>
+      </div>
+      <div class="kontak-grid reveal">
+        <!-- Form -->
+        <div class="kontak-form-wrap">
+          <form class="kontak-form" id="kontakForm">
+            <div class="form-group">
+              <label for="nama">Nama Lengkap</label>
+              <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Alamat Email</label>
+              <input type="email" id="email" name="email" placeholder="nama@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="subjek">Subjek</label>
+              <select id="subjek" name="subjek">
+                <option value="">Pilih topik...</option>
+                <option value="produk">Pembelian Produk Ikan</option>
+                <option value="feeder">Smart Feeder IoT</option>
+                <option value="aquawisata">Paket Aquawisata</option>
+                <option value="kerjasama">Kerja Sama</option>
+                <option value="lainnya">Lainnya</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">
+              Kirim Pesan <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fa-solid fa-circle-check"></i> Pesan terkirim! Kami akan menghubungi Anda segera.
+            </div>
+          </form>
+        </div>
+
+        <!-- Info -->
+        <div class="kontak-info">
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h5>Alamat</h5>
+              <p>Jl. Budidaya Ikan No. 12, Kec. Medan Tuntungan,<br />Kota Medan, Sumatera Utara 20141</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-brands fa-whatsapp"></i></div>
+            <div>
+              <h5>WhatsApp</h5>
+              <p><a href="https://wa.me/6285804651262" target="_blank">+62 858-0465-1262</a></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h5>Email</h5>
+              <p><a href="mailto:smartfishfarm@gmail.com">smartfishfarm@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h5>Jam Operasional</h5>
+              <p>Senin – Sabtu: 08.00 – 17.00 WIB</p>
+            </div>
+          </div>
+          <!-- Maps Embed Dummy -->
+          <div class="maps-embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127618.31060804578!2d98.60700494999999!3d3.5896654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30312f719b85c2df%3A0x64b6b60e6fbb4c71!2sMedan%2C%20Kota%20Medan%2C%20Sumatera%20Utara!5e0!3m2!1sid!2sid!4v1699999999999!5m2!1sid!2sid"
+              width="100%"
+              height="200"
+              style="border:0; border-radius: 12px;"
+              allowfullscreen=""
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="logo.png" alt="Smart Fish Farm" class="footer-logo" />
+          <p>Ekosistem budidaya ikan berbasis teknologi untuk masa depan akuakultur Indonesia yang lebih cerdas dan berkelanjutan.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h5>Layanan</h5>
+          <ul>
+            <li><a href="#produk">Produk Ikan</a></li>
+            <li><a href="#produk">Smart Feeder IoT</a></li>
+            <li><a href="#produk">Platform Digital</a></li>
+            <li><a href="#aquawisata">Aquawisata</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Perusahaan</h5>
+          <ul>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#teknologi">Teknologi</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <h5>Tetap Terhubung</h5>
+          <p>Dapatkan update terbaru produk & promo Smart Fish Farm.</p>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Email Anda" />
+            <button class="btn-primary btn-sm">Daftar</button>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Smart Fish Farm. All Rights Reserved.</p>
+        <p>Dibuat dengan <i class="fa-solid fa-heart" style="color:#e53935"></i> untuk Akuakultur Indonesia</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
